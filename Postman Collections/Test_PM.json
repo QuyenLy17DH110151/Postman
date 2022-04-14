@@ -1,0 +1,37 @@
+{
+  "info": {
+    "_postman_id": "01919966-e57c-457e-b247-c6850dc5d6d2",
+    "name": "LSCP V2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login V2",
+      "_postman_id": "1e1527aa-992f-412d-b722-2a1d87c5484b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "domain",
+            "value": " dxc.com",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"username\":\"quyen.ly2@dxc.com\",\"password\":\"Admin@123\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:43426/api/v2/login"
+      },
+      "response": []
+    }
+  ]
+}
